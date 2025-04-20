@@ -1,5 +1,9 @@
 package com.bacan.sample.app.repository;
 
+import com.bacan.sample.app.model.User;
+
+import java.util.List;
+
 public interface UserRepository {
-    Object[] getAllUsers(Object query);
+  List<User> getAllUsers();
 }
